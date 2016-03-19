@@ -1,0 +1,4 @@
+framework module spatialite {
+    umbrella header "spatialite.h"
+    export *
+}

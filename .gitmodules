@@ -1,0 +1,3 @@
+[submodule "spatialite"]
+	path = spatialite
+	url = https://github.com/Ryandev/SpatiaLite.git

@@ -1,0 +1,8 @@
+
+#define SPATIALITE_DECLARE extern
+
+#define PROJECTS_H
+
+#define VERSION "4.3.0"
+
+#define TARGET_CPU "armv7"
