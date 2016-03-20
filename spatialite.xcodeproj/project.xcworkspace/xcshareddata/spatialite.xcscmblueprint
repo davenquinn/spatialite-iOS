@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D47B5B3F75CCFC47C8D69E7A6E31D15C2F59951",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3D47B5B3F75CCFC47C8D69E7A6E31D15C2F59951" : 0,
+    "E88F5B8696FFC6936D951F0205D3401B401C2453" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1DA0788E-AD3F-4C80-8132-6EE04FC25BF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3D47B5B3F75CCFC47C8D69E7A6E31D15C2F59951" : "spatialite-iOS\/",
+    "E88F5B8696FFC6936D951F0205D3401B401C2453" : "spatialite-iOS\/spatialite\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "spatialite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "spatialite.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ryandev\/spatialite-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D47B5B3F75CCFC47C8D69E7A6E31D15C2F59951"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Ryandev\/SpatiaLite.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E88F5B8696FFC6936D951F0205D3401B401C2453"
+    }
+  ]
+}
