@@ -1,2 +1,3 @@
 github "Ryandev/Proj4-iOS" == 4.9.2
-github "Ryandev/GEOS-iOS"
+github "Ryandev/GEOS-iOS" == 3.5.0
+github "Ryandev/SQLite-iOS" == 3.11.1
