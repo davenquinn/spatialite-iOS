@@ -737,6 +737,7 @@
 				B739E0981CB6ED74008EDA84 /* Patch gg_formats.h */,
 				B739E0991CB6EDA8008EDA84 /* Patch gg_structs.h */,
 				B790C62A1CA6C24000350F23 /* Fix sqlite references */,
+				B739E09A1CB83869008EDA84 /* Patch sqlite.h */,
 				B732737D1C9DC07F00AB3FE9 /* Copy config.h */,
 				B7F969B11C97493F00C78357 /* Sources */,
 				B7F969B21C97493F00C78357 /* Frameworks */,
@@ -880,6 +881,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "echo 'Patching gg_structs.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/gg_structs.h ${SRCROOT}/patches/gg_structs.h.patch\nexit 0";
+		};
+		B739E09A1CB83869008EDA84 /* Patch sqlite.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Patch sqlite.h";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo 'Patching sqlite.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/sqlite.h ${SRCROOT}/patches/sqlite.h.patch\nexit 0";
 		};
 		B790C62A1CA6C24000350F23 /* Fix sqlite references */ = {
 			isa = PBXShellScriptBuildPhase;
