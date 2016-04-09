@@ -142,28 +142,28 @@
 		B73D8BF41C98B5C500F327B7 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = B73D8B0B1C98B5C500F327B7 /* version.c */; };
 		B73D8BF71C98B5C500F327B7 /* virtualtext.c in Sources */ = {isa = PBXBuildFile; fileRef = B73D8B0F1C98B5C500F327B7 /* virtualtext.c */; };
 		B73D8BFA1C98B5C500F327B7 /* wfs_in.c in Sources */ = {isa = PBXBuildFile; fileRef = B73D8B131C98B5C500F327B7 /* wfs_in.c */; };
-		B790C6301CA6CB2900350F23 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B790C62F1CA6CB2900350F23 /* sqlite3.framework */; };
-		B790C6331CA6D66C00350F23 /* spatialite.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6321CA6D66C00350F23 /* spatialite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6351CA6D67600350F23 /* spatialite_private.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6341CA6D67600350F23 /* spatialite_private.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B790C6481CA6D68500350F23 /* control_points.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6361CA6D68500350F23 /* control_points.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6491CA6D68500350F23 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6371CA6D68500350F23 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64A1CA6D68500350F23 /* gaiaaux.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6381CA6D68500350F23 /* gaiaaux.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64B1CA6D68500350F23 /* gaiaexif.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6391CA6D68500350F23 /* gaiaexif.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64C1CA6D68500350F23 /* gaiageo.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63A1CA6D68500350F23 /* gaiageo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64D1CA6D68500350F23 /* gaiamatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63B1CA6D68500350F23 /* gaiamatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64E1CA6D68500350F23 /* geopackage.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63C1CA6D68500350F23 /* geopackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C64F1CA6D68500350F23 /* gg_advanced.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63D1CA6D68500350F23 /* gg_advanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6501CA6D68500350F23 /* gg_const.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63E1CA6D68500350F23 /* gg_const.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6511CA6D68500350F23 /* gg_core.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C63F1CA6D68500350F23 /* gg_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6521CA6D68500350F23 /* gg_dxf.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6401CA6D68500350F23 /* gg_dxf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6531CA6D68500350F23 /* gg_dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6411CA6D68500350F23 /* gg_dynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6541CA6D68500350F23 /* gg_formats.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6421CA6D68500350F23 /* gg_formats.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6551CA6D68500350F23 /* gg_mbr.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6431CA6D68500350F23 /* gg_mbr.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6561CA6D68500350F23 /* gg_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6441CA6D68500350F23 /* gg_structs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6571CA6D68500350F23 /* gg_wfs.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6451CA6D68500350F23 /* gg_wfs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6581CA6D68500350F23 /* gg_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6461CA6D68500350F23 /* gg_xml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C6591CA6D68500350F23 /* sqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = B790C6471CA6D68500350F23 /* sqlite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B790C65B1CAC4D1A00350F23 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B790C65A1CAC4D1A00350F23 /* sqlite3.framework */; };
+		B73D8BFC1C98C25900F327B7 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B73D8BFB1C98C25900F327B7 /* libsqlite3.tbd */; };
+		B7778B361CB97E3E0037A830 /* control_points.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B1F1CB97E3E0037A830 /* control_points.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B371CB97E3E0037A830 /* debug.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B201CB97E3E0037A830 /* debug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B381CB97E3E0037A830 /* gaiaaux.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B211CB97E3E0037A830 /* gaiaaux.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B391CB97E3E0037A830 /* gaiaexif.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B221CB97E3E0037A830 /* gaiaexif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3A1CB97E3E0037A830 /* gaiageo.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B231CB97E3E0037A830 /* gaiageo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3B1CB97E3E0037A830 /* gaiamatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B241CB97E3E0037A830 /* gaiamatrix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3C1CB97E3E0037A830 /* geopackage.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B251CB97E3E0037A830 /* geopackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3D1CB97E3E0037A830 /* gg_advanced.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B261CB97E3E0037A830 /* gg_advanced.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3E1CB97E3E0037A830 /* gg_const.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B271CB97E3E0037A830 /* gg_const.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B3F1CB97E3E0037A830 /* gg_core.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B281CB97E3E0037A830 /* gg_core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B401CB97E3E0037A830 /* gg_dxf.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B291CB97E3E0037A830 /* gg_dxf.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B411CB97E3E0037A830 /* gg_dynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2A1CB97E3E0037A830 /* gg_dynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B421CB97E3E0037A830 /* gg_formats.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2B1CB97E3E0037A830 /* gg_formats.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B431CB97E3E0037A830 /* gg_mbr.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2C1CB97E3E0037A830 /* gg_mbr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B441CB97E3E0037A830 /* gg_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2D1CB97E3E0037A830 /* gg_structs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B451CB97E3E0037A830 /* gg_wfs.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2E1CB97E3E0037A830 /* gg_wfs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B461CB97E3E0037A830 /* gg_xml.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B2F1CB97E3E0037A830 /* gg_xml.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B481CB97E3E0037A830 /* sqlite.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B311CB97E3E0037A830 /* sqlite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B491CB97E3E0037A830 /* spatialite.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B321CB97E3E0037A830 /* spatialite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7778B4A1CB97E3E0037A830 /* spatialite_private.h in Headers */ = {isa = PBXBuildFile; fileRef = B7778B331CB97E3E0037A830 /* spatialite_private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B7778B4C1CB9816D0037A830 /* sqlite3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7778B4B1CB9816D0037A830 /* sqlite3.framework */; };
 		B7EC0E2D1C9A027600E02AA3 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC0E2C1C9A027600E02AA3 /* libz.tbd */; };
 		B7EC0E331C9A0B1200E02AA3 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EC0E2A1C9A024F00E02AA3 /* libiconv.tbd */; };
 		B7F96BAB1C976AD100C78357 /* geos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F96BA91C976AD100C78357 /* geos.framework */; };
@@ -306,28 +306,28 @@
 		B73D8B0B1C98B5C500F327B7 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = version.c; sourceTree = "<group>"; };
 		B73D8B0F1C98B5C500F327B7 /* virtualtext.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = virtualtext.c; sourceTree = "<group>"; };
 		B73D8B131C98B5C500F327B7 /* wfs_in.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wfs_in.c; sourceTree = "<group>"; };
-		B790C62F1CA6CB2900350F23 /* sqlite3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlite3.framework; path = Carthage/Build/iOS/sqlite3.framework; sourceTree = "<group>"; };
-		B790C6321CA6D66C00350F23 /* spatialite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spatialite.h; path = spatialite/src/Headers/spatialite.h; sourceTree = "<group>"; };
-		B790C6341CA6D67600350F23 /* spatialite_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = spatialite_private.h; path = spatialite/src/Headers/spatialite_private.h; sourceTree = "<group>"; };
-		B790C6361CA6D68500350F23 /* control_points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = control_points.h; path = spatialite/src/Headers/spatialite/control_points.h; sourceTree = "<group>"; };
-		B790C6371CA6D68500350F23 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = debug.h; path = spatialite/src/Headers/spatialite/debug.h; sourceTree = "<group>"; };
-		B790C6381CA6D68500350F23 /* gaiaaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gaiaaux.h; path = spatialite/src/Headers/spatialite/gaiaaux.h; sourceTree = "<group>"; };
-		B790C6391CA6D68500350F23 /* gaiaexif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gaiaexif.h; path = spatialite/src/Headers/spatialite/gaiaexif.h; sourceTree = "<group>"; };
-		B790C63A1CA6D68500350F23 /* gaiageo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gaiageo.h; path = spatialite/src/Headers/spatialite/gaiageo.h; sourceTree = "<group>"; };
-		B790C63B1CA6D68500350F23 /* gaiamatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gaiamatrix.h; path = spatialite/src/Headers/spatialite/gaiamatrix.h; sourceTree = "<group>"; };
-		B790C63C1CA6D68500350F23 /* geopackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geopackage.h; path = spatialite/src/Headers/spatialite/geopackage.h; sourceTree = "<group>"; };
-		B790C63D1CA6D68500350F23 /* gg_advanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_advanced.h; path = spatialite/src/Headers/spatialite/gg_advanced.h; sourceTree = "<group>"; };
-		B790C63E1CA6D68500350F23 /* gg_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_const.h; path = spatialite/src/Headers/spatialite/gg_const.h; sourceTree = "<group>"; };
-		B790C63F1CA6D68500350F23 /* gg_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_core.h; path = spatialite/src/Headers/spatialite/gg_core.h; sourceTree = "<group>"; };
-		B790C6401CA6D68500350F23 /* gg_dxf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_dxf.h; path = spatialite/src/Headers/spatialite/gg_dxf.h; sourceTree = "<group>"; };
-		B790C6411CA6D68500350F23 /* gg_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_dynamic.h; path = spatialite/src/Headers/spatialite/gg_dynamic.h; sourceTree = "<group>"; };
-		B790C6421CA6D68500350F23 /* gg_formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_formats.h; path = spatialite/src/Headers/spatialite/gg_formats.h; sourceTree = "<group>"; };
-		B790C6431CA6D68500350F23 /* gg_mbr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_mbr.h; path = spatialite/src/Headers/spatialite/gg_mbr.h; sourceTree = "<group>"; };
-		B790C6441CA6D68500350F23 /* gg_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_structs.h; path = spatialite/src/Headers/spatialite/gg_structs.h; sourceTree = "<group>"; };
-		B790C6451CA6D68500350F23 /* gg_wfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_wfs.h; path = spatialite/src/Headers/spatialite/gg_wfs.h; sourceTree = "<group>"; };
-		B790C6461CA6D68500350F23 /* gg_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gg_xml.h; path = spatialite/src/Headers/spatialite/gg_xml.h; sourceTree = "<group>"; };
-		B790C6471CA6D68500350F23 /* sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite.h; path = spatialite/src/Headers/spatialite/sqlite.h; sourceTree = "<group>"; };
-		B790C65A1CAC4D1A00350F23 /* sqlite3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlite3.framework; path = Carthage/Build/iOS/sqlite3.framework; sourceTree = "<group>"; };
+		B73D8BFB1C98C25900F327B7 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		B7778B1F1CB97E3E0037A830 /* control_points.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = control_points.h; sourceTree = "<group>"; };
+		B7778B201CB97E3E0037A830 /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		B7778B211CB97E3E0037A830 /* gaiaaux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiaaux.h; sourceTree = "<group>"; };
+		B7778B221CB97E3E0037A830 /* gaiaexif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiaexif.h; sourceTree = "<group>"; };
+		B7778B231CB97E3E0037A830 /* gaiageo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiageo.h; sourceTree = "<group>"; };
+		B7778B241CB97E3E0037A830 /* gaiamatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaiamatrix.h; sourceTree = "<group>"; };
+		B7778B251CB97E3E0037A830 /* geopackage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geopackage.h; sourceTree = "<group>"; };
+		B7778B261CB97E3E0037A830 /* gg_advanced.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_advanced.h; sourceTree = "<group>"; };
+		B7778B271CB97E3E0037A830 /* gg_const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_const.h; sourceTree = "<group>"; };
+		B7778B281CB97E3E0037A830 /* gg_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_core.h; sourceTree = "<group>"; };
+		B7778B291CB97E3E0037A830 /* gg_dxf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_dxf.h; sourceTree = "<group>"; };
+		B7778B2A1CB97E3E0037A830 /* gg_dynamic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_dynamic.h; sourceTree = "<group>"; };
+		B7778B2B1CB97E3E0037A830 /* gg_formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_formats.h; sourceTree = "<group>"; };
+		B7778B2C1CB97E3E0037A830 /* gg_mbr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_mbr.h; sourceTree = "<group>"; };
+		B7778B2D1CB97E3E0037A830 /* gg_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_structs.h; sourceTree = "<group>"; };
+		B7778B2E1CB97E3E0037A830 /* gg_wfs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_wfs.h; sourceTree = "<group>"; };
+		B7778B2F1CB97E3E0037A830 /* gg_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gg_xml.h; sourceTree = "<group>"; };
+		B7778B311CB97E3E0037A830 /* sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite.h; sourceTree = "<group>"; };
+		B7778B321CB97E3E0037A830 /* spatialite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spatialite.h; sourceTree = "<group>"; };
+		B7778B331CB97E3E0037A830 /* spatialite_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spatialite_private.h; sourceTree = "<group>"; };
+		B7778B4B1CB9816D0037A830 /* sqlite3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlite3.framework; path = Carthage/Build/iOS/sqlite3.framework; sourceTree = "<group>"; };
 		B7EC0E2A1C9A024F00E02AA3 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		B7EC0E2C1C9A027600E02AA3 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		B7F969B61C97493F00C78357 /* spatialite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = spatialite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -343,9 +343,9 @@
 			files = (
 				B7EC0E331C9A0B1200E02AA3 /* libiconv.tbd in Frameworks */,
 				B7EC0E2D1C9A027600E02AA3 /* libz.tbd in Frameworks */,
-				B790C6301CA6CB2900350F23 /* sqlite3.framework in Frameworks */,
+				B73D8BFC1C98C25900F327B7 /* libsqlite3.tbd in Frameworks */,
 				B73273841C9DC56600AB3FE9 /* proj4.framework in Frameworks */,
-				B790C65B1CAC4D1A00350F23 /* sqlite3.framework in Frameworks */,
+				B7778B4C1CB9816D0037A830 /* sqlite3.framework in Frameworks */,
 				B7F96BAB1C976AD100C78357 /* geos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +356,7 @@
 		B73273801C9DC54A00AB3FE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B790C65A1CAC4D1A00350F23 /* sqlite3.framework */,
+				B7778B4B1CB9816D0037A830 /* sqlite3.framework */,
 				B73273811C9DC56600AB3FE9 /* geos.framework */,
 				B73273821C9DC56600AB3FE9 /* proj4.framework */,
 			);
@@ -616,37 +616,46 @@
 			path = wfs;
 			sourceTree = "<group>";
 		};
-		B790C6311CA6D65900350F23 /* inc */ = {
+		B7778B1B1CB97E3E0037A830 /* headers */ = {
 			isa = PBXGroup;
 			children = (
-				B790C6361CA6D68500350F23 /* control_points.h */,
-				B790C6371CA6D68500350F23 /* debug.h */,
-				B790C6381CA6D68500350F23 /* gaiaaux.h */,
-				B790C6391CA6D68500350F23 /* gaiaexif.h */,
-				B790C63A1CA6D68500350F23 /* gaiageo.h */,
-				B790C63B1CA6D68500350F23 /* gaiamatrix.h */,
-				B790C63C1CA6D68500350F23 /* geopackage.h */,
-				B790C63D1CA6D68500350F23 /* gg_advanced.h */,
-				B790C63E1CA6D68500350F23 /* gg_const.h */,
-				B790C63F1CA6D68500350F23 /* gg_core.h */,
-				B790C6401CA6D68500350F23 /* gg_dxf.h */,
-				B790C6411CA6D68500350F23 /* gg_dynamic.h */,
-				B790C6421CA6D68500350F23 /* gg_formats.h */,
-				B790C6431CA6D68500350F23 /* gg_mbr.h */,
-				B790C6441CA6D68500350F23 /* gg_structs.h */,
-				B790C6451CA6D68500350F23 /* gg_wfs.h */,
-				B790C6461CA6D68500350F23 /* gg_xml.h */,
-				B790C6471CA6D68500350F23 /* sqlite.h */,
-				B790C6341CA6D67600350F23 /* spatialite_private.h */,
-				B790C6321CA6D66C00350F23 /* spatialite.h */,
+				B7778B1E1CB97E3E0037A830 /* spatialite */,
+				B7778B321CB97E3E0037A830 /* spatialite.h */,
+				B7778B331CB97E3E0037A830 /* spatialite_private.h */,
 			);
-			name = inc;
+			name = headers;
+			path = spatialite/src/headers;
+			sourceTree = "<group>";
+		};
+		B7778B1E1CB97E3E0037A830 /* spatialite */ = {
+			isa = PBXGroup;
+			children = (
+				B7778B1F1CB97E3E0037A830 /* control_points.h */,
+				B7778B201CB97E3E0037A830 /* debug.h */,
+				B7778B211CB97E3E0037A830 /* gaiaaux.h */,
+				B7778B221CB97E3E0037A830 /* gaiaexif.h */,
+				B7778B231CB97E3E0037A830 /* gaiageo.h */,
+				B7778B241CB97E3E0037A830 /* gaiamatrix.h */,
+				B7778B251CB97E3E0037A830 /* geopackage.h */,
+				B7778B261CB97E3E0037A830 /* gg_advanced.h */,
+				B7778B271CB97E3E0037A830 /* gg_const.h */,
+				B7778B281CB97E3E0037A830 /* gg_core.h */,
+				B7778B291CB97E3E0037A830 /* gg_dxf.h */,
+				B7778B2A1CB97E3E0037A830 /* gg_dynamic.h */,
+				B7778B2B1CB97E3E0037A830 /* gg_formats.h */,
+				B7778B2C1CB97E3E0037A830 /* gg_mbr.h */,
+				B7778B2D1CB97E3E0037A830 /* gg_structs.h */,
+				B7778B2E1CB97E3E0037A830 /* gg_wfs.h */,
+				B7778B2F1CB97E3E0037A830 /* gg_xml.h */,
+				B7778B311CB97E3E0037A830 /* sqlite.h */,
+			);
+			path = spatialite;
 			sourceTree = "<group>";
 		};
 		B7F969AC1C97493F00C78357 = {
 			isa = PBXGroup;
 			children = (
-				B790C6311CA6D65900350F23 /* inc */,
+				B7778B1B1CB97E3E0037A830 /* headers */,
 				B73D8A171C98B5C500F327B7 /* src */,
 				B7F96BA81C976AC000C78357 /* dependencies */,
 				B7F96BA51C974B8800C78357 /* resources */,
@@ -675,8 +684,8 @@
 		B7F96BA81C976AC000C78357 /* dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				B790C62F1CA6CB2900350F23 /* sqlite3.framework */,
 				B7EC0E2A1C9A024F00E02AA3 /* libiconv.tbd */,
+				B73D8BFB1C98C25900F327B7 /* libsqlite3.tbd */,
 				B7EC0E2C1C9A027600E02AA3 /* libz.tbd */,
 				B7F96BA91C976AD100C78357 /* geos.framework */,
 				B7F96BAA1C976AD100C78357 /* proj4.framework */,
@@ -691,34 +700,34 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B790C6531CA6D68500350F23 /* gg_dynamic.h in Headers */,
-				B790C64B1CA6D68500350F23 /* gaiaexif.h in Headers */,
-				B790C6491CA6D68500350F23 /* debug.h in Headers */,
+				B7778B411CB97E3E0037A830 /* gg_dynamic.h in Headers */,
+				B7778B491CB97E3E0037A830 /* spatialite.h in Headers */,
 				B73D8B9D1C98B5C500F327B7 /* md5.h in Headers */,
-				B790C6501CA6D68500350F23 /* gg_const.h in Headers */,
-				B790C6561CA6D68500350F23 /* gg_structs.h in Headers */,
+				B7778B481CB97E3E0037A830 /* sqlite.h in Headers */,
+				B7778B3F1CB97E3E0037A830 /* gg_core.h in Headers */,
 				B732737F1C9DC28B00AB3FE9 /* prefix.pch in Headers */,
-				B790C6511CA6D68500350F23 /* gg_core.h in Headers */,
-				B790C64C1CA6D68500350F23 /* gaiageo.h in Headers */,
-				B790C6571CA6D68500350F23 /* gg_wfs.h in Headers */,
+				B7778B391CB97E3E0037A830 /* gaiaexif.h in Headers */,
 				B73D8B701C98B5C500F327B7 /* geopackage_internal.h in Headers */,
-				B790C64F1CA6D68500350F23 /* gg_advanced.h in Headers */,
-				B790C6591CA6D68500350F23 /* sqlite.h in Headers */,
-				B790C6481CA6D68500350F23 /* control_points.h in Headers */,
+				B7778B431CB97E3E0037A830 /* gg_mbr.h in Headers */,
 				B73D8B201C98B5C500F327B7 /* grass_crs.h in Headers */,
-				B790C64A1CA6D68500350F23 /* gaiaaux.h in Headers */,
-				B790C6521CA6D68500350F23 /* gg_dxf.h in Headers */,
-				B790C64D1CA6D68500350F23 /* gaiamatrix.h in Headers */,
-				B790C6331CA6D66C00350F23 /* spatialite.h in Headers */,
+				B7778B3E1CB97E3E0037A830 /* gg_const.h in Headers */,
+				B7778B401CB97E3E0037A830 /* gg_dxf.h in Headers */,
+				B7778B3B1CB97E3E0037A830 /* gaiamatrix.h in Headers */,
+				B7778B451CB97E3E0037A830 /* gg_wfs.h in Headers */,
+				B7778B3D1CB97E3E0037A830 /* gg_advanced.h in Headers */,
+				B7778B461CB97E3E0037A830 /* gg_xml.h in Headers */,
+				B7778B381CB97E3E0037A830 /* gaiaaux.h in Headers */,
 				B73D8B2A1C98B5C500F327B7 /* dxf_private.h in Headers */,
 				B73D8B151C98B5C500F327B7 /* cache_aux_1.h in Headers */,
-				B790C6541CA6D68500350F23 /* gg_formats.h in Headers */,
+				B7778B441CB97E3E0037A830 /* gg_structs.h in Headers */,
+				B7778B3C1CB97E3E0037A830 /* geopackage.h in Headers */,
+				B7778B371CB97E3E0037A830 /* debug.h in Headers */,
 				B73D8B171C98B5C500F327B7 /* cache_aux_3.h in Headers */,
-				B790C6581CA6D68500350F23 /* gg_xml.h in Headers */,
-				B790C6551CA6D68500350F23 /* gg_mbr.h in Headers */,
-				B790C64E1CA6D68500350F23 /* geopackage.h in Headers */,
+				B7778B421CB97E3E0037A830 /* gg_formats.h in Headers */,
+				B7778B3A1CB97E3E0037A830 /* gaiageo.h in Headers */,
 				B73D8B161C98B5C500F327B7 /* cache_aux_2.h in Headers */,
-				B790C6351CA6D67600350F23 /* spatialite_private.h in Headers */,
+				B7778B361CB97E3E0037A830 /* control_points.h in Headers */,
+				B7778B4A1CB97E3E0037A830 /* spatialite_private.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,11 +742,11 @@
 				B732738D1C9DDC8800AB3FE9 /* Fix localcharset.h */,
 				B732738B1C9DD71700AB3FE9 /* Fix proj_api.h references */,
 				B732738C1C9DD81200AB3FE9 /* Fix geos_c.h references */,
-				B739E0971CB6EAC1008EDA84 /* Patch gg_dxf.h */,
-				B739E0981CB6ED74008EDA84 /* Patch gg_formats.h */,
-				B739E0991CB6EDA8008EDA84 /* Patch gg_structs.h */,
-				B790C62A1CA6C24000350F23 /* Fix sqlite references */,
-				B739E09A1CB83869008EDA84 /* Patch sqlite.h */,
+				B7778B4D1CB9B8240037A830 /* Patch gg_dxf.h */,
+				B7778B4E1CB9B83A0037A830 /* Patch gg_formats.h */,
+				B7778B4F1CB9B84E0037A830 /* Patch gg_structs.h */,
+				B7778B511CB9B8930037A830 /* Patch sqlite.h */,
+				B7778B501CB9B8710037A830 /* Fix sqlite references */,
 				B732737D1C9DC07F00AB3FE9 /* Copy config.h */,
 				B7F969B11C97493F00C78357 /* Sources */,
 				B7F969B21C97493F00C78357 /* Frameworks */,
@@ -840,7 +849,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\nfind ${SRCROOT}/spatialite/src -name '*.c' -exec sed -i '' -e 's/#include <localcharset.h>/#include <\\/usr\\/include\\/localcharset.h>/g' {} \\;\n\nexit 0";
 		};
-		B739E0971CB6EAC1008EDA84 /* Patch gg_dxf.h */ = {
+		B7778B4D1CB9B8240037A830 /* Patch gg_dxf.h */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -854,7 +863,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo 'Patching gg_dxf.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/gg_dxf.h ${SRCROOT}/patches/gg_dxf.h.patch\nexit 0";
 		};
-		B739E0981CB6ED74008EDA84 /* Patch gg_formats.h */ = {
+		B7778B4E1CB9B83A0037A830 /* Patch gg_formats.h */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -868,7 +877,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo 'Patching gg_formats.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/gg_formats.h ${SRCROOT}/patches/gg_formats.h.patch\nexit 0";
 		};
-		B739E0991CB6EDA8008EDA84 /* Patch gg_structs.h */ = {
+		B7778B4F1CB9B84E0037A830 /* Patch gg_structs.h */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -882,21 +891,7 @@
 			shellPath = /bin/sh;
 			shellScript = "echo 'Patching gg_structs.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/gg_structs.h ${SRCROOT}/patches/gg_structs.h.patch\nexit 0";
 		};
-		B739E09A1CB83869008EDA84 /* Patch sqlite.h */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Patch sqlite.h";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "echo 'Patching sqlite.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/sqlite.h ${SRCROOT}/patches/sqlite.h.patch\nexit 0";
-		};
-		B790C62A1CA6C24000350F23 /* Fix sqlite references */ = {
+		B7778B501CB9B8710037A830 /* Fix sqlite references */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -909,6 +904,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\nfind ${SRCROOT}/spatialite/src -name '*.[c|h]' -exec sed -i '' -e 's/#include <sqlite3.h>/#include <sqlite3\\/sqlite3.h>/g' {} \\;\n\nexit 0";
+		};
+		B7778B511CB9B8930037A830 /* Patch sqlite.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Patch sqlite.h";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo 'Patching sqlite.h'\npatch -N ${SRCROOT}/spatialite/src/Headers/spatialite/sqlite.h ${SRCROOT}/patches/sqlite.h.patch\nexit 0";
 		};
 		B7EC17501C9DB78400E02AA3 /* Remove makefiles */ = {
 			isa = PBXShellScriptBuildPhase;
