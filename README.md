@@ -19,19 +19,19 @@ Spatialite is a plugin for SQLite that allows for geo-spatial queries
 * Initialize spatialite where ''mySQLite3Connection'' is your handle to a valid database instance
 
 ```objc
-        int sqliteInitStatus = sqlite3_initialize();
-        assert(sqliteInitStatus==SQLITE_OK);
+int sqliteInitStatus = sqlite3_initialize();
+assert(sqliteInitStatus==SQLITE_OK);
         
-        int sqliteInitOSStatus = sqlite3_os_init();
-        assert(sqliteInitOSStatus==SQLITE_OK);
+int sqliteInitOSStatus = sqlite3_os_init();
+assert(sqliteInitOSStatus==SQLITE_OK);
         
-        sqlite3_enable_load_extension(mySQLite3Connection, 1);
+sqlite3_enable_load_extension(mySQLite3Connection, 1);
         
-        spatialite_initialize();
+spatialite_initialize();
 
-        _spatialiteConn = spatialite_alloc_connection();
-        assert(_spatialiteConn);
-        spatialite_init_ex(mySQLite3Connection, _spatialiteConn, 1);```
+_spatialiteConn = spatialite_alloc_connection();
+assert(_spatialiteConn);
+spatialite_init_ex(mySQLite3Connection, _spatialiteConn, 1);```
 ```
 
 After the above you are able
