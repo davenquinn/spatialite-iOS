@@ -34,7 +34,7 @@ assert(_spatialiteConn);
 spatialite_init_ex(mySQLite3Connection, _spatialiteConn, 1);```
 ```
 
-After the above you are able
+After the above you can call SQLite with queries containing spatialite functions
 
 ## Notes
 If you use the sqlite3 built provided by iOS/Mac ensure this version supports loading extension (Alternatively build sqlite3 with [extension support](https://www.github.com/Ryandev/SQLite-iOS))
